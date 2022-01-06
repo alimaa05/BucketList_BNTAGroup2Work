@@ -1,0 +1,72 @@
+/* contact us page */
+.Order_form {
+    text-align:center;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+    color: black;
+    margin-top: 10px;
+    background-color:#9FC5E8;
+}
+
+.header_2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    background-color:transparent;
+}
+
+.right-nav{
+    text-align: right;
+}
+.text {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.text_Message {
+    width: 50%;
+    height: 20%;
+    text-align:start;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* dark mode button*/
+#dark-mode-button{
+    background-color: #0a1e31;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* light mode button*/
+#light-mode-button{
+    background-color: #9FC5E8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

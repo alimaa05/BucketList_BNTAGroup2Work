@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="contact.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+        <title>Bucket List</title>
+        <script src="app.js" defer></script>
+
+    </head>
+    <body class="body">
+        <div id="page-container">
+            <div id="content-wrap">
+    <body>
+        <header>
+            <!--Website title-->
+            <a href="./index.html"><h1>Bucket List</h1></a>
+            <!--Navigation bar-->
+            <nav>
+                <ul class="navBar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./About.html">About Us</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <!-- dark and light-->
+        <section>
+            <button id="dark-mode-button">Dark Mode</button>
+            <button id="light-mode-button">Light mode</button>
+        </section>
+        <!--Search bar-->
+        <section>
+            <div class="right-nav">
+                <input type="search" name="search" placeholder="search">
+                <input type="submit" value="search">
+            </div>
+        </section>
+  <!--contact us form-->
+        <section>
+            <h1 class="contact"> Contact Us </h1>
+            <h2 class="header_2">Let us know if you have any questions!</h2>
+                <div id="order">
+                    <form action class="Order_form" onSubmit="alert('Thank you for your message.')">
+                        <label for="Name"> Forename:</label>
+                        <br>
+                        <input class="text" name="Forename" placeholder="Forename" id>
+                        <br>
+                        <br>
+                        <br>
+                        <label for="Name"> Surename:</label>
+                        <br>
+                        <input class="text" name="Surename" placeholder="Surname" id>
+                        <br>
+                        <br>
+                        <br>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input class="text" name="Email" placeholder="email@gmail.com" id>
+                        <br>
+                        <br>
+                        <br>
+                        <label for="Your Message">Your Message/Query:</label>
+                        <br>
+                        <input class="text_Message" name="Your Message/Query" placeholder="Your Message" id>
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <div id="my_form">
+                            <p>Please click submit to complete this process.</p>
+                            <button id="nextStep">Submit</button>
+                          </div>
+                          <div id="thank_you" style="display: none;">
+                            <p>Thanks for filling up the form! We will be in touch shortly.</p>
+                            <button type="submit">Close</button>
+                          </div>
+                    </form>
+                </div>
+        </section>
+    <!--Page footer-->
+        <footer>
+            <h3>ABOUT BUCKET LIST</h3>
+                <p>Privacy</p>
+                <p>Terms and conditions</p>
+                <p> Bucket List &#169; 2022</p>
+        </footer>
+    </body>
+</html>
+
+
+
